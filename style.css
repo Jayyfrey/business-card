@@ -1,0 +1,50 @@
+/* This page is nothing fancy, but my favorite color is green, so I wanted to have green be present in an easy to look at page. */
+
+body {
+  background: beige;
+}
+h1 {
+  font-family: Arial;
+  font-size: 54px;
+}  
+h2, h3 {
+  font-family: Helvetica;
+  font-size: 36px;
+}
+
+p, ol, ul {
+  color: rgb(13, 128, 32);
+  font-family: 'Lucida Sans';
+}
+
+.image {
+  text-align: center;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+/* originally the image and center class were one, but there were difficulties in getting some of the height and width the match exactly how I wanted, so they became separate */
+
+.center {
+	text-align: center;
+  list-style-position: inside;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: auto;
+}
+
+a {
+  font-family: 'Lucida Sans';
+}
+
+a:link    { color: blue;  }
+a:visited { color: purple;   }
+a:hover   { color: rgb(8, 75, 19); }
+a:active  { color: black;  }
+
+/* love it or hate it, my links of course had to include green. Blue is almost always the color of a link, so I chose that. */
